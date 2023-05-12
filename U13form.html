@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>สำหรับเจ้าหน้าที่</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizLand - v3.6.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    table, th, td {
+        font-family: THAMMASAT;
+        font-size : 112%; 
+        color : black;
+        width: 500px;
+      }
+      th {
+        height: 60px;
+        background-color: #c3002f;
+        color: white;
+      }
+      th {
+          padding: 12px;
+      }
+      td {
+        padding: 12px;
+        text-align: center;
+      }
+      tr {
+        background-color: #f2f2f2; 
+      }
+      #tableO {
+        font-family: THAMMASAT;
+        width: 100px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table1 {
+        font-family: THAMMASAT;
+        width: 200px; 
+        height: 45px; 
+        font-size: 16px;
+      }
+      #table2 {
+        font-family: THAMMASAT;
+        width: 110px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table3 {
+        font-family: THAMMASAT;
+        width: 150px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table4 {
+        font-family: THAMMASAT;
+        width: 60px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table5 {
+        font-family: THAMMASAT;
+        width: 250px; 
+        height: 45px; 
+        font-size: 16px;
+      }
+      #table6 {
+        width: 60px; 
+        height: 30px;
+      }
+  </style>
+</head>
+
+<body onload = "loadDoc()">
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo">THAMMASAT UNIVERSITY : STAFF</h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+           <li><a class="nav-link scrollto active" href="indexTeacher.html">Home</a></li>
+           <li><a class="nav-link scrollto" href="U13check.html">ค้นหารหัสนักศึกษา</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+
+
+  <main id="main">
+     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>คำร้องขอลงทะเบียนล่าช้า</h2>
+        </div>
+
+        <div class="row">
+
+          <div>
+            <form action="/staff" role="form" class="php-email-form">
+              <div>
+                <h2>ข้อมูลส่วนตัว</h2>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="date">วันที่ยื่นคำร้อง<span style="color: red;"></span> :
+                  <input type="text" class="form-control" id="dateformat" disabled></label>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="firstname">ชื่อ<span style="color: red;"></span> : </label>
+                  <input class="form-control"id ="firstname" type="text" disabled>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastname">นามสกุล<span style="color: red;"></span> : </label>
+                  <input class="form-control"id ="lastname" name="lastname" type="text" disabled>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="regnumber">เลขทะเบียนนักศึกษา<span style="color: red;"></span> : </label>
+                  <input class="form-control"id ="regnumber" name="reg" pattern="[5-6]{1}[0-9]{9}" disabled>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="year">ชั้นปีที่กำลังศึกษาอยู่<span style="color: red;"></span> :</label>
+                  <input type="text"class="form-control" id="year" disabled>
+                </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="feild">ภาควิชา<span style="color: red;"></span> :</label>
+                   <input disabled type="text" class="form-control" id="field" >
+                </div>
+                  <div class="form-group col-md-6">
+                    <label for="number">โทรศัพท์มือถือ<span style="color: red;"></span> :</label>
+                    <input disabled class="form-control" id ="mobilephone"  type="number" placeholder="XXX-XXX-XXXX" pattern="[0]{1}[0-9]{9}" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="numberhome">โทรศัพท์บ้าน(ถ้ามี) :</label>
+                    <input disabled class="form-control" id ="phone">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="teacher">อาจารย์ที่ปรึกษา<span style="color: red;"></span> :</label>
+                    <input disabled class="form-control" id ="teachers" name="teacher" type="text" placeholder="อาจารย์ วนิดา พฤทธิวิทยา" required>
+                  </div>
+                </div>
+              <div class="row">
+                <div>
+                  <br><h2>ที่อยู่อาศัยที่สามารถติดต่อได้</h2>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="numadd">บ้านเลขที่<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="address" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="moo">หมู่ที่<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="moo" required>
+                </div>
+              </div>
+                <div class="form-group col-md-6">
+                  <label for="subdistrict">แขวง(ตำบล)<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="tumbol" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="district">เขต(อำเภอ)<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="amphur" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="city" >จังหวัด<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="province" name="city" type="text" placeholder="xxxxx" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="postcode">รหัสไปรษณีย์<span style="color: red;"></span> :</label>
+                  <input disabled class="form-control" id ="postcode" name="postcode" type="number" placeholder="XXXXX" pattern="[0-9]{5}" required>
+                </div>
+                <!--table-->
+                 <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">มีความประสงค์</label>
+                    <label for="increase">ขอลงทะเบียนรายวิชาจำนวน<span style="color: red;"></span> :</label>
+                      <input disabled id="cause" class="form-control" style="width: 110px;" placeholder="2"required>
+                  </div>
+                </div><!--row251-->
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <table>
+                      <tr>
+                        <th>ลำดับ</th>
+                        <th>รหัสรายวิชา</th> 
+                        <th>ชื่อวิชา</th>
+                        <th>Section</th>
+                        <th>วัน / เวลา</th>
+                        <th>หน่วยกิต</th>
+                        <th>ชื่อผู้สอน</th>
+                        <th>ผู้สอนอนุญาต</th>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">1.</td>
+                        <td><input id="nosubject1"></td>
+                        <td><input id="namesubject1"></td>
+                        <td><input id="section1"></td>
+                        <td><input type="text" id="datetime1" ></td>
+                        <td><input id="value1"></td>
+                        <td><input type="text" id="nameteacher1"></td>
+                        <td><input type="checkbox" id="confirm_order1" ></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">2.</td>
+                        <td><input id="nosubject2"></td>
+                        <td><input id="namesubject2"></td>
+                        <td><input id="section2"></td>
+                        <td><input type="text" id="datetime2" ></td>
+                        <td><input id="value2"></td>
+                        <td><input type="text" id="nameteacher2"></td>
+                        <td><input type="checkbox" id="confirm_order2" ></td>
+                      </tr>
+                      
+                      
+                  </table>
+                  </div>
+                </div><!--table-->
+                  <div class="form-group mt-3">
+                    <label for="name">เหตุผลที่ขอลงทะเบียนรายวิชาดังกล่าว</label>
+                    <textarea  disabled class="form-control" id ="cause" name="cause" rows="10" placeholder="เนื่องจากมีเหตุให้ต้องadmitโรงพยาบาลในช่วงเวลาลงทะเบียนเรียนจึงไม่สามารถลงทะเบียนเรียนได้ทันเวลาที่กำหนด"required></textarea>
+                  </div>  
+
+                   <div class="form-group mt-3">
+                    <label for="name">เอกสารแนบ:</label> 
+                  <a href="host.png">ใบรับรองแพทย์.pdf<a> <br> <br><br> 
+                <h2>ความคิดเห็นอาจารย์ที่ปรึกษาและอาจารย์ผู้สอน</h2>
+                <br> 
+                <div class="row">
+                <div class="form-group col-md-6"> 
+                  <h6>ความคิดเห็นอาจารย์ที่ปรึกษา</h6> 
+                  <h6 style="color:red;">เห็นสมควรอนุมัติ</h6>
+                  <h6 style="color:red;">เหตุผล เนื่องจากนักศึกษามีเหตุผลสมควรและสามารถลงเรียนวิชาที่ยื่นคำร้องได้</h6>     
+                  <h6 style="color:red;">ดร.xxxxx xxxxx</h6>         
+                </div> 
+
+                <div class="row">
+                 <div class="form-group col-md-6"> 
+                  <h6>ความคิดเห็นอาจารย์ผู้สอน</h6> 
+                  <h6 style="color:red;">เห็นสมควรอนุมัติ</h6>
+                  <h6 style="color:red;">เหตุผล เนื่องจากนักศึกษาผ่านวิชาบังคับCS101จึงสามารถลงทะเบียนเรียนวิชานี้ได้</h6>  
+                  <h6 style="color:red;">ดร.xxxxx xxxxx</h6>     
+                </div>           
+
+                 <h2>ส่วนสำหรับเจ้าหน้าที่ตรวจสอบ<span style="color: red;">*</span>  </h2>
+                 <div><br> 
+                  <h6><b><li>ตรวจสอบความครบถ้วนของข้อมูล</li></b></h6> 
+                  <br>
+                 <input type="radio" id="completely" name="completely" value="completely">
+                 - ข้อมูล เอกสารครบถ้วนสมบูรณ์<br>
+                 <input type="radio" id="incompletely" name="completely" value="incompletely">
+                 - ข้อมูล เอกสารไม่ครบแจ้งนักศึกษาให้แก้ไขเพิ่มเติม</label> 
+
+<br><br>  
+</div>
+<textarea  class="form-control" id ="notation" name="notation" rows="1" placeholder="แจ้งนักศึกษา กรณีเอกสารไม่ครบ"></textarea>  
+         <div><br>
+           <h6><b><li>ความคิดเห็นเจ้าหน้าที่</li></b></h6> 
+           <br> 
+                 <input type="radio" id="approve" name="approval" value="approve">
+                 - เห็นสมควรให้อนุมัติ<br>
+                 <input type="radio" id="considerate" name="approval" value="considerate">
+                 - เห็นสมควรพิจรณา<br>
+                 <input type="radio" id="deselect" name="approval" value="deselect">
+                 - ไม่เห็นสมควรให้อนุมัติ<br>  
+               </div>
+<div>
+<br>
+<textarea  class="form-control" id ="cause" name="cause" rows="1" placeholder="ให้เหตุผล สำหรับเจ้าหน้าที่"required></textarea>  
+</div> <div> <br><br>
+                    <div class="text-center">
+
+                    <button type="submit" class="text-center" onclick="alert('บันทึกข้อมูลเรียบร้อย')" >บันทึกการตรวจสอบ</button>
+                  </div>
+              </div>
+            </form>
+            
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+  </main> 
+
+
+
+ 
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+  <script src="info.js"></script>
+
+</body>
+</html>

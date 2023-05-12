@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>คำร้องนักศึกษา</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizLand - v3.6.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body onload = "loadDoc()">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">THAMMASAT UNIVERSITY</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>Thammasat University</span></h1>
+    </div>
+  </section><!-- End Hero -->
+
+ <main id="main">
+     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <style>
+                table.redTable {
+                  border: 2px solid #c3002f;
+                  background-color: #F5F5F5; 
+                  width: 80%;
+                  border-collapse: collapse;
+              }
+
+              table.redTable td,
+              table.redTable th {
+                  border: 1px solid #000000;
+                  padding: 5px 10px;
+              }
+
+              table.redTable tbody td {
+                  font-size: 20px;
+                  text-align: center;
+              }
+
+              table.redTable tr:nth-child(even) {
+                  background: #F5F5F5;
+              }
+
+              table.redTable thead {
+                  background:#c3002f;
+                  text-align: center;
+              }
+
+              table.redTable thead th {
+                  font-size: 20px;
+                  font-weight: bold;
+                  color: #FFFFFF;
+                  border-left: 1px solid #c3002f;
+              }
+
+              table.redTable thead th:first-child {
+                  border-left: none;
+              }
+
+              table.redTable tfoot {
+                  font-size: 15px;
+                  font-weight: bold;
+                  color: #FFFFFF;
+                  background:#c3002f;
+              }
+
+              table.redTable tfoot td {
+                  font-size: 15px;
+              }
+
+              table.redTable tfoot .links {
+                  text-align: right;
+              }
+
+              table.redTable tfoot .links a {
+                  display: inline-block;
+                  background: #FFFFFF;
+                  color:#c3002f;
+                  padding: 10px 8px;
+                  border-radius: 5px;
+              }
+        </style>
+
+        <div class="section-title">
+          <h2>ชำระเงินค่าปรับลงทะเบียนล่าช้า</h2>
+        </div>
+
+        <div class="row">
+          
+          
+          <center><table class="redTable">
+                <thead>
+                        <th>สถานะการชำระเงิน</th>
+                        <th>รายวิชาที่ทำการเพิ่มถอน</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td ><img src="https://image.shutterstock.com/image-illustration/wrong-cross-symbol-isolated-3d-260nw-1074911219.jpg">
+                        
+                        <form action="/u5">
+                          <br>
+                          <input type="file" id="myFile" name="filename">
+                          <br><br>
+                          <input type="submit">   
+                        </form>
+                        </td>
+                        <td style="padding: 0px;">
+                          <table class="redTable" style="width: 100%;">
+                            <thead>
+                              <th style="width: 10%;">ลำดับ</th>
+                              <th style="width: 20%;">รหัสวิชา</th>
+                              <th style="width: 50%;">ชื่อวิชา</th>
+                              <th style="width: 20%;">สถานะการเพิ่ม - ถอน</th>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th>1.</th>
+                                <th id="sub1"></th>
+                                <th id="namesub1"></th>
+                                <th id="status1"></th>
+                              </tr>
+                              <tr>
+                                <th>2.</th>
+                                <th id="sub2"></th>
+                                <th id="namesub2"></th>
+                                <th id="status2"></th>
+                              </tr>
+                              <tr>
+                                <th>3.</th>
+                                <th id="sub3"></th>
+                                <th id="namesub3"></th>
+                                <th id="status3"></th>
+                              </tr>
+                              <tr>
+                                <th>4.</th>
+                                <th id="sub4"></th>
+                                <th id="namesub4"></th>
+                                <th id="status4"></th>
+                              </tr>
+                              <tr>
+                                <th>5.</th>
+                                <th id="sub5"></th>
+                                <th id="namesub5"></th>
+                                <th id="status5"></th>
+                              </tr>
+                              <tr>
+                                <th>6.</th>
+                                <th id="sub6"></th>
+                                <th id="namesub6"></th>
+                                <th id="status6"></th>
+                              </tr>
+                              <tr>
+                                <th>7.</th>
+                                <th id="sub7"></th>
+                                <th id="namesub7"></th>
+                                <th id="status7"></th>
+                              </tr>
+                              <tr>
+                                <th>8.</th>
+                                <th id="sub8"></th>
+                                <th id="namesub8"></th>
+                                <th id="status8"></th>
+                              </tr>
+                              <tr>
+                                <th>9.</th>
+                                <th id="sub9"></th>
+                                <th id="namesub9"></th>
+                                <th id="status9"></th>
+                              </tr>
+                              <tr>
+                                <th>10.</th>
+                                <th id="sub10"></th>
+                                <th id="namesub10"></th>
+                                <th id="status10"></th>
+                              </tr>
+                            </tbody>
+               
+            </table></center>
+            
+        </form>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+  </main>
+
+ 
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+  <script src="abs.js"></script>
+</body>
+</html>

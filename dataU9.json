@@ -1,0 +1,18 @@
+[
+    {
+        "studentId": "6309681846",
+        "studentFirstName": "ณัฐดนัย",
+        "studentLastName": "เข็มทอง",
+        "mobilePhone": "0901234567",
+        "phone": "0123456789",
+        "studyField": "วิทยากรคอมพิวเตอร์",
+        "studentYear": "2",
+        "advisor": "ผศ.ดร. ทรงศักดิ์",
+        "addressNumber": "111/111",
+        "moo": "1",
+        "tumbol": "ตต",
+        "amphur": "ออ",
+        "province": "จจ",
+        "postalCode": "10000"
+    }
+]

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>คำร้องนักศึกษา</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+  <style>
+          table.redTable {
+            border: 2px solid #c3002f;
+            background-color: #F5F5F5; 
+            width: 80%;
+            border-collapse: collapse;
+        }
+
+        table.redTable td,
+        table.redTable th {
+            border: 1px solid #000000;
+            padding: 5px 10px;
+        }
+
+        table.redTable tbody td {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        table.redTable tr:nth-child(even) {
+            background: #F5F5F5;
+        }
+
+        table.redTable thead {
+            background:#c3002f;
+            text-align: center;
+        }
+
+        table.redTable thead th {
+            font-size: 20px;
+            font-weight: bold;
+            color: #FFFFFF;
+            border-left: 1px solid #c3002f;
+        }
+
+        table.redTable thead th:first-child {
+            border-left: none;
+        }
+
+        table.redTable tfoot {
+            font-size: 15px;
+            font-weight: bold;
+            color: #FFFFFF;
+            background:#c3002f;
+        }
+
+        table.redTable tfoot td {
+            font-size: 15px;
+        }
+
+        table.redTable tfoot .links {
+            text-align: right;
+        }
+
+        table.redTable tfoot .links a {
+            display: inline-block;
+            background: #FFFFFF;
+            color:#c3002f;
+            padding: 10px 8px;
+            border-radius: 5px;
+        }
+        </style>
+
+  <!-- =======================================================
+  * Template Name: BizLand - v3.6.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body onload="loadDoc()">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="#hero">THAMMASAT UNIVERSITY</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">คำร้องขอลงทะเบียนล่าช้า</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">ผลการยื่นคำร้อง</a></li>
+          <li class="dropdown"><a href="#"><span>เพิ่มเติม</span></i></a>
+            <ul>
+              <li><a href="#services">ข้อมูลการติดต่ออาจารย์</a></li>
+              <li><a href="u14.html">หลักฐานประกอบคำร้องเพิ่มเติม</a></li>
+              <li><a href="u5.html">ชำระเงิน</a></li>
+              <li><a href="showU9.html">แก้ไขข้อมูลส่วนตัว</a></li>
+              <li><a href="u4_student.html">ความคืบหน้าคำร้อง</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#status">ความคืบหน้าของคำร้อง</a></li>
+          <li><a class="nav-link scrollto" href="/search">Sign out</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>Thammasat University</span></h1>
+      <br>
+      <div class="d-flex">
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="#about">ฟอร์มคำร้อง</a></h4>
+              <p class="description">นักศึกษาสามารถกดเพื่อทำการกรอกฟอร์มคำร้องได้ที่นี่</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="#portfolio">ผลการลงทะเบียน</a></h4>
+              <p class="description">นักศึกษาสามารถตรวจสอบผลการลงทะเบียนได้ที่นี่</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="#services">ข้อมูลการติดต่ออาจารย์</a></h4>
+              <p class="description">นักศึกษาสามารถค้นหาช่องทางการติดต่ออาจารย์ได้จากที่นี่</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="u14.html">หลักฐานประกอบคำร้องเพิ่มเติม</a></h4>
+              <p class="description">นักศึกษาสามารถส่งหลักฐานประกอบคำร้องเพิ่มเติมได้ที่นี่</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>คำร้องขอลงทะเบียนล่าช้า</h2>
+          <h3><span>เงื่อนไข</span>สำหรับนักศึกษาในการจดทะเบียนล่าช้า</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="img/vr2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <p class="fst-italic">
+              1. นักศึกษาต้องดูการเปลี่ยนแปลงตารางสอน ตารางสอบก่อนการลงทะเบียน <br>(กรณีโครงการพิเศษดูประกาศที่โครงการ)<br>
+              2. การตรวจสอบผลโควตา<br>
+              &nbsp; &nbsp;&nbsp; &nbsp;2.1) นักศึกษาปริญญาตรีโครงการปกติตรวจสอบผลโควตาตามปฏิทินกิจกรรมชั้นปริญญาตรี<br>
+              &nbsp; &nbsp;&nbsp; &nbsp;2.2) นักศึกษาระดับปริญญาตรีโครงการพิเศษตรวจสอบตารางสอนที่คณะ/โครงการ<br>
+              3. นักศึกษาต้องได้รับคำแนะนำในการวางแผนการจดทะเบียนฯจากอาจารย์ที่ปรึกษาทุกครั้ง<br>
+              4. การยื่นแบบฟอร์มคำร้องผ่านอินเตอร์เน็ตจะเปิดให้ดำเนินการภายในระยะเวลา 30 วัน<br>(นับจากวันเปิดเทอม)<br>
+              5. ช่วงจดทะเบียนล่าช้าสามารถทำรายการได้หลายครั้งในช่วงเวลาที่ประกาศและทุกครั้งที่ทำรายการนักศึกษาต้องยืนยันการทำรายการทุกครั้ง<br>
+              6. นักศึกษาต้องดำเนินการผ่านอินเตอร์เน็ตด้วยตนเองเท่านั้นห้ามให้สิทธิ์ผู้อื่นดำเนินการแทนหากมีข้อผิดพลาดถือเป็นความรับผิดชอบของนักศึกษา<br>
+              7. สามารถติดตามผลการจดทะเบียนได้ผ่านอินเตอร์เน็ตได้
+              <a href="formStudent.html" class="btn-get-started scrollto">กรอกฟอร์ม</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title" >
+          <h2>ข้อมูลติดต่ออาจารย์</h2>
+          <h3>นักศึกษาสามารถ<span>ค้นหา</span>ข้อมูลการติดต่อของอาจารย์ได้ที่นี่</h3>
+        </div>
+        <form id="form">
+        <div class="container" style="margin-top: 20px">
+              <div class="col">
+                <div class ="col" align="center">
+                  <input style="display: inline; width: 50% " class="form-control"  id="searchName" name="name" placeholder="กรอกชื่ออาจารย์" type="text">
+                  <button class="form-control" style="width: 100px;" onclick="search()">ค้นหา</button></input>
+              <br><br>
+              <ul id="contactList">
+
+              </ul>
+        </div>
+         
+          <script src="searchController.js"></script>
+      <!--</form>-->
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>ผลการยื่นคำร้อง</h2>
+          <h3>นักศึกษาสามารถ<span>ดูผลการลงทะเบียน</span>ได้ที่นี่</h3>
+        </div>
+        <div>
+          <div class="info"
+              style="width: 700px;margin: auto; padding: 10px 0px 10px 0px;border-radius: 15px 15px 10px 10px;">
+              <form>
+                <div class ="col" align="center">
+                  <input style="display: inline; width: 50% " class="form-control"  id="studentID" placeholder="กรอกรหัสนักศึกษา" type="text">
+                  <button class="form-control" style="width: 100px;  display: inline-block; cursor: pointer;
+                transition-duration: 0.4s;" onclick=check()>ค้นหา</button></input>
+                </div>
+              </form>
+              <br>
+            </div>
+        </div>
+        <form>
+
+            <center><table class="redTable">
+                <thead>
+                    <tr>
+                        <th>รหัส</th>
+                        <th>ชื่อ</th>
+                        <th>ผลการลงทะเบียน<br></th>
+                        
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">
+                         
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td height="25">6309610100</td>
+                        <td>บุษยา ไชยคาม</td>
+                        <td><a href="u7_1.html">ผลการลงทะเบียน</a>
+                        
+                    </tr>
+                    <tr>
+                        <td height="25">6309610044</td>
+                        <td>ทรงอัปสร พงษ์สามารถ</td>
+                        <td><a href="u7_2.html">ผลการลงทะเบียน</a>
+                          
+                    </tr>
+                    <tr>
+                        <td height="25">6309678900</td>
+                        <td>kim jennie </td>
+                        <td><a href="u7_3.html">ผลการลงทะเบียน</a></td>
+                        
+                    </tr>
+                    <tr>
+                        <td height="25">6301004500</td>
+                        <td>Devid Beckham</td>
+                        <td><a href="u7_4.html">ผลการลงทะเบียน</a>
+                        
+                    <tr>
+                        
+                </tbody>
+                </tr>
+            </table></center>
+            <br>
+            <center><button class="form-control" style="width: 100px">เพิ่มเติม</button></center>
+        </form>
+
+      </div>
+       <script>
+            const searchIdInput = document.getElementById("studentID");
+            const rowst = document.querySelectorAll("tbody tr");
+            console.log(rowst);
+            searchIdInput.addEventListener("keyup", function (event) {
+                const r = event.target.value.toLowerCase();
+                rowst.forEach((row) => {
+                    row.querySelector("td").textContent.toLowerCase().startsWith(r)
+                        ? (row.style.display = "table-row")
+                        : (row.style.display = "none");
+                });
+            });
+        </script>
+    </section><!-- End Portfolio Section -->
+
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>BizLand</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

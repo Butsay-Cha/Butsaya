@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>คำร้องนักศึกษา</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizLand - v3.6.0
+  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    table, th, td {
+        font-family: THAMMASAT;
+        font-size : 112%; 
+        color : black;
+        width: 900px;
+      }
+      th {
+        height: 60px;
+        background-color: #c3002f;
+        color: white;
+      }
+      th {
+          padding: 12px;
+      }
+      td {
+        padding: 12px;
+        text-align: center;
+      }
+      tr {
+        background-color: #f2f2f2; 
+      }
+      #tableO {
+        font-family: THAMMASAT;
+        width: 100px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table1 {
+        font-family: THAMMASAT;
+        width: 200px; 
+        height: 45px; 
+        font-size: 16px;
+      }
+      #table2 {
+        font-family: THAMMASAT;
+        width: 110px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table3 {
+        font-family: THAMMASAT;
+        width: 150px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table4 {
+        font-family: THAMMASAT;
+        width: 60px; 
+        height: 45px; 
+        font-size: 20px;
+      }
+      #table5 {
+        font-family: THAMMASAT;
+        width: 250px; 
+        height: 45px; 
+        font-size: 16px;
+      }
+      #table6 {
+        width: 60px; 
+        height: 30px;
+      }
+  </style>
+</head>
+
+<body onload="loadDoc()" >
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">THAMMASAT UNIVERSITY</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>Thammasat University</span></h1>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+     <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>คำร้องขอลงทะเบียนล่าช้า</h2>
+          <p>นักศึกษากรุณาอ่านเงื่อนไขสำหรับการจดทะเบียนล่าช้าก่อนกรอกฟอร์ม</p>
+        </div>
+
+        <div class="row">
+
+          <div>
+            <form role="form" class="php-email-form">
+              <div>
+                <h2>ข้อมูลส่วนตัว</h2>
+              </div>
+              <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="date">วันที่ <span style="color: red;">*</span> :
+                  <input type="date" class="form-control" id="date-format" name="date-format" required></label>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="firstname">ชื่อ<span style="color: red;">*</span> : </label>
+                  <input class="form-control"id ="firstname" name="firstname" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="lastname">นามสกุล<span style="color: red;">*</span> : </label>
+                  <input class="form-control"id ="lastname" name="lastname" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="regnumber">เลขทะเบียนนักศึกษา<span style="color: red;">*</span> : </label>
+                  <input class="form-control" id ="id" name="id" type="number" placeholder="XXXXXXXXXX" pattern="[5-6]{1}[0-9]{9}" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="year">ชั้นปีที่กำลังศึกษาอยู่<span style="color: red;">*</span> :</label>
+                  <select class="form-control" id="year" name="year">
+                    <option selected>เลือกชั้นปี</option>
+                    <option value="first">ชั้นปีที่ 1</option>
+                    <option value="second">ชั้นปีที่ 2</option>
+                    <option value="third">ชั้นปีที่ 3</option>
+                    <option value="fourth">ชั้นปีที่ 4</option>
+                    <option value="fifth">ชั้นปีที่ 5</option>
+                    <option value="six">ชั้นปีที่ 6</option>
+                    <option value="seven">ชั้นปีที่ 7</option>
+                  </select>
+                </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="feild">ภาควิชา<span style="color: red;">*</span> :</label>
+                   <select class="form-control" id="feild" name="feild">
+                    <option selected>เลือกภาควิชา</option>
+                    <option value="spacial">ภาคพิเศษ</option>
+                    <option value="normal">ภาคปกติ</option>
+                    </select>
+                </div>
+                  <div class="form-group col-md-6">
+                    <label for="number">โทรศัพท์มือถือ<span style="color: red;">*</span> :</label>
+                    <input class="form-control" id ="number" name="number" type="number" placeholder="XXX-XXX-XXXX" pattern="[0]{1}[0-9]{9}" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="numberhome">โทรศัพท์บ้าน(ถ้ามี) :</label>
+                    <input class="form-control" id ="numberhome" name="numberhome" type="number" placeholder="XX-XXX-XXXX" pattern="[0-2]{2}[0-9]{7}">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="teacher">อาจารย์ที่ปรึกษา<span style="color: red;">*</span> :</label>
+                    <input class="form-control" id ="teacher" name="teacher" type="text" required>
+                  </div>
+                </div>
+              <div class="row">
+                <div>
+                  <br><h2>ที่อยู่อาศัยที่สามารถติดต่อได้</h2>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="numadd">บ้านเลขที่<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="numadd" name="numadd" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="moo">หมู่ที่<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="moo" name="moo" type="number" required>
+                </div>
+              </div>
+                <div class="form-group col-md-6">
+                  <label for="subdistrict">แขวง(ตำบล)<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="subdistrict" name="subdistrict" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="district">เขต(อำเภอ)<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="district" name="district" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="city" >จังหวัด<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="city" name="city" type="text" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="postcode">รหัสไปรษณีย์<span style="color: red;">*</span> :</label>
+                  <input class="form-control" id ="postcode" name="postcode" type="number" placeholder="XXXXX" pattern="[0-9]{5}" required>
+                </div>
+                <!--table-->
+                 <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">มีความประสงค์</label>
+                    <label for="increase">ขอลงทะเบียนรายวิชาจำนวน<span style="color: red;">*</span> :</label>
+                      <select id="increase" class="form-control" name="increase"  style="width: 110px;" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select> 
+                  </div>
+                </div><!--row251-->
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <table>
+                      <tr>
+                        <th>ลำดับ</th>
+                        <th>รหัสรายวิชา</th> 
+                        <th>ชื่อวิชา</th>
+                        <th>Section</th>
+                        <th>วัน / เวลา</th>
+                        <th>หน่วยกิต</th>
+                        <th>ชื่อผู้สอน</th>
+                        <th>ผู้สอนอนุญาต</th>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">1.</td>
+                        <td><input type="text" id="tableO" name="one"></td>
+                        <td><input type="text" id="table1" name="subone"></td>
+                        <td><input type="number" id="table2" name="section1"></td>
+                        <td><input type="text" id="table3" name="datetime1"></td>
+                        <td><input type="number" id="table4" name="credit1"></td>
+                        <td><input type="text" id="table5" name="teacher1"></td>
+                        <td><input type="checkbox" id="table6" name="check1" value="checkone" disabled></td>
+                        
+                      </tr>
+                      <tr>
+                        <td style="color: black;">2.</td>
+                        <td><input type="text" id="tableO" name="two"></td>
+                        <td><input type="text" id="table1" name="subtwo"></td>
+                        <td><input type="number" id="table2" name="section2" type="number"></td>
+                        <td><input type="text" id="table3" name="datetime2"></td>
+                        <td><input type="number" id="table4" name="credit2"></td>
+                        <td><input type="text" id="table5" name="teacher2"></td>
+                        <td><input type="checkbox" id="table6" name="check2" value="checktwo" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">3.</td>
+                        <td><input type="text" id="tableO" name="three"></td>
+                        <td><input type="text" id="table1" name="subthree"></td>
+                        <td><input type="number" id="table2" name="section3"></td>
+                        <td><input type="text" id="table3" name="datetime3"></td>
+                        <td><input type="number" id="table4" name="credit3"></td>
+                        <td><input type="text" id="table5" name="teacher3"></td>
+                        <td><input type="checkbox" id="table6" name="check3" value="checkthree" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">4.</td>
+                        <td><input type="text" id="tableO" name="four"></td>
+                        <td><input type="text" id="table1" name="subfour"></td>
+                        <td><input type="number" id="table2" name="section4"></td>
+                        <td><input type="text" id="table3" name="datetime4"></td>
+                        <td><input type="number" id="table4" name="credit4"></td>
+                        <td><input type="text" id="table5" name="teacher4"></td>
+                        <td><input type="checkbox" id="table6" name="check4" value="checkfour" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">5.</td>
+                        <td><input type="text" id="tableO" name="five"></td>
+                        <td><input type="text" id="table1" name="subfive"></td>
+                        <td><input type="number" id="table2" name="section5"></td>
+                        <td><input type="text" id="table3" name="datetime5"></td>
+                        <td><input type="number" id="table4" name="credit5"></td>
+                        <td><input type="text" id="table5" name="teacher5"></td>
+                        <td><input type="checkbox" id="table6" name="check5" value="checkfive" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">6.</td>
+                        <td><input type="text" id="tableO" name="six"></td>
+                        <td><input type="text" id="table1" name="subsix"></td>
+                        <td><input type="number" id="table2" name="section6"></td>
+                        <td><input type="text" id="table3" name="datetime6"></td>
+                        <td><input type="number" id="table4" name="credit6"></td>
+                        <td><input type="text" id="table5" name="teacher6"></td>
+                        <td><input type="checkbox" id="table6" name="check6" value="checksix" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">7.</td>
+                        <td><input type="text" id="tableO" name="seven"></td>
+                        <td><input type="text" id="table1" name="subseven"></td>
+                        <td><input type="number" id="table2" name="section7"></td>
+                        <td><input type="text" id="table3" name="datetime7"></td>
+                        <td><input type="number" id="table4" name="credit7"></td>
+                        <td><input type="text" id="table5" name="teacher7"></td>
+                        <td><input type="checkbox" id="table6" name="check7" value="checkseven" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">8.</td>
+                        <td><input type="text" id="tableO" name="eight"></td>
+                        <td><input type="text" id="table1" name="subeight"></td>
+                        <td><input type="number" id="table2" name="section8"></td>
+                        <td><input type="text" id="table3" name="datetime8"></td>
+                        <td><input type="number" id="table4" name="credit8"></td>
+                        <td><input type="text" id="table5" name="teacher8"></td>
+                        <td><input type="checkbox" id="table6" name="check8" value="checkeight" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">9.</td>
+                        <td><input type="text" id="tableO" name="nine"></td>
+                        <td><input type="text" id="table1" name="subnine"></td>
+                        <td><input type="number" id="table2" name="section9"></td>
+                        <td><input type="text" id="table3" name="datetime9"></td>
+                        <td><input type="number" id="table4" name="credit9"></td>
+                        <td><input type="text" id="table5" name="teacher9"></td>
+                        <td><input type="checkbox" id="table6" name="check9" value="checknine" disabled></td>
+                      </tr>
+                      <tr>
+                        <td style="color: black;">10.</td>
+                        <td><input type="text" id="tableO" name="ten"></td>
+                        <td><input type="text" id="table1" name="subten"></td>
+                        <td><input type="number" id="table2" name="section10"></td>
+                        <td><input type="text" id="table3" name="datetime10"></td>
+                        <td><input type="number" id="table4" name="credit10"></td>
+                        <td><input type="text" id="table5" name="teacher10"></td>
+                        <td><input type="checkbox" id="table6" name="check10" value="checkten" disabled></td>
+                      </tr>
+                  </table>
+                  </div>
+                </div><!--table-->
+                  <div class="form-group mt-3">
+                    <label for="name">เหตุผลที่ขอลงทะเบียนรายวิชาดังกล่าว</label>
+                    <textarea class="form-control" id ="cause" name="cause" rows="10" required></textarea>
+                    <form>
+                          <br>
+                          <label for="name">หลักฐานประกอบคำร้อง</label><br>
+                          <input type="file" id="myFile" name="filename">
+                          <br> 
+                    </form>
+                  </div>
+                    <div class="text-center"><button type="submit"  onclick="saveData2()">ยืนยันการจดทะเบียน</button></div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+  </main>
+ <script src="controllerU2.js"></script>
+ 
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/purecounter/purecounter.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
